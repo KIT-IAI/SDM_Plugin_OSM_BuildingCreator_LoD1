@@ -6,11 +6,6 @@ The OSM BuildingCreator plug-in ...
 
 No external dependencies
 
-### Use of vcpkg:
-
-|Package Name         |Install Command                            |
-|:---                 |:---                                       |
-
 ## How to cite
 
 ```bibtex
