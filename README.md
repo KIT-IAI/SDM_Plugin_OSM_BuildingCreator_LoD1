@@ -1,5 +1,5 @@
 # OSM BuildingCreator
-The OSM BuildingCreator plug-in ...
+The OSM BuildingCreator plugin for the [KITModelViewer](https://github.com/KIT-IAI/SDM_KITModelViewer) ...
 
 
 ## Dependencies
