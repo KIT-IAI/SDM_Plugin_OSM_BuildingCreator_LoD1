@@ -2,22 +2,29 @@
 
 <img width="1380" height="351" alt="image" src="https://github.com/user-attachments/assets/17a65a2a-ae2e-4fd7-9f9c-70bc919af652" />
 
-Generate CityGML LoD1 models ready for export from OpenStreetMap(OSM) data while preserving OSM attributes with the OSM BuildingCreator LoD1 plugin for the [KITModelViewer](https://github.com/KIT-IAI/SDM_KITModelViewer).
+Generate CityGML LoD1 models ready for export from OpenStreetMap(OSM) data while preserving OSM attributes with the OSM BuildingCreator LoD1 plugin for versions above 7.4 of [KITModelViewer](https://github.com/KIT-IAI/SDM_KITModelViewer).
 
 CityGML v2.0 documentation defines LoD1 as object blocks with flat roofs, while LoD2 includes differentiated roof structures and thematically differentiated boundary surfaces. In this case, the plugin generates LoD2 CityGML building models, but with flat roofs. The plugin is named after LoD1 because the LoD2 version, which includes roof structures and building parts, will be released soon.
 
+## Instalation
+Extract zip. file from OSM Building Creator LoD1 plugin and copy folder to the plugin folder of KITModerViewer.
+
+
+<img width="910" height="517" alt="image" src="https://github.com/user-attachments/assets/e5874dd2-58df-4b9e-861a-a1dec3a2133c" />
+
+
 ## Step-by-step:
 
-### 1- Load OSM Data by creating new map (a) or by opening OSM map (b).
+### 1- Open KITModelViewer and load OSM Data by creating new map (a) or by opening OSM map (b).
 
 <img width="254" height="169" alt="image" src="https://github.com/user-attachments/assets/929b312b-6b0d-4505-a52a-0b3098fd2147" />
 
-#### a) Look for adress, connect to OSM servers and select OSM filter for buildings.
+#### &nbsp;&nbsp;&nbsp;&nbsp;a) Look for adress, connect to OSM servers and select OSM filter for buildings.
 
 <img width="354" height="531" alt="image" src="https://github.com/user-attachments/assets/0339d70a-6261-4129-890c-d87a5934684a" />
 <br><img width="789" height="361" alt="image" src="https://github.com/user-attachments/assets/1ceb3a93-8ccb-4eae-b8e2-5c2dfcfa5538" />
 
-#### b) Open or drag OSM map data file retrieved from other source, such as [OpenStreetMap Export](https://www.openstreetmap.org/export). Models will be created just from buildings.
+#### &nbsp;&nbsp;&nbsp;&nbsp;b) Open or drag OSM map data file retrieved from other source, such as [OpenStreetMap Export](https://www.openstreetmap.org/export). Models will be created just from buildings.
 
 <img width="753" height="390" alt="image" src="https://github.com/user-attachments/assets/76223d9f-4b8a-4579-a4dc-638d5f05d792" />
 
@@ -57,6 +64,7 @@ CityGML v2.0 documentation defines LoD1 as object blocks with flat roofs, while 
 	date         = {2025}
 }
 ```
+
 
 
 
