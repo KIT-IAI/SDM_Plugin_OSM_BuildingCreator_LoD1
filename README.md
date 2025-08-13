@@ -41,7 +41,11 @@ CityGML v2.0 documentation defines LoD1 as object blocks with flat roofs, while 
 
 ## Dependencies
 
-No external dependencies
+### Use of vcpkg:
+
+|Package Name         |Install Command                            |
+|:---                 |:---                                       |
+|wxwidgets            |vcpkg install wxwidgets triplet=x64-windows|
 
 ## How to cite
 
@@ -53,6 +57,7 @@ No external dependencies
 	date         = {2025}
 }
 ```
+
 
 
 
