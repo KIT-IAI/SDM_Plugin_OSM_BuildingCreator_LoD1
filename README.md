@@ -4,7 +4,7 @@
 
 Generate CityGML LoD1 models ready for export from OpenStreetMap(OSM) data while preserving OSM attributes with the OSM BuildingCreator LoD1 plugin for versions above 7.4 of [KITModelViewer](https://github.com/KIT-IAI/SDM_KITModelViewer).
 
-CityGML v2.0 documentation defines LoD1 as object blocks with flat roofs, while LoD2 includes differentiated roof structures and thematically differentiated boundary surfaces. In this case, the plugin generates LoD2 CityGML building models, but with flat roofs. The plugin is named after LoD1 because the LoD2 version, which includes roof structures and building parts, will be released soon.
+CityGML v2.0 documentation defines LoD1 as object blocks with flat roofs, while LoD2 includes differentiated roof structures and thematically differentiated boundary surfaces. The LoD1 naming only makes it clear that these are block models with a constant height. A separate version for LoD2 with concrete roof shapes if available in OSM will be released soon.
 
 ## Instalation
 Extract zip. file from OSM Building Creator LoD1 plugin and copy folder to the plugin folder of KITModerViewer.
@@ -64,6 +64,7 @@ Extract zip. file from OSM Building Creator LoD1 plugin and copy folder to the p
 	date         = {2025}
 }
 ```
+
 
 
 
