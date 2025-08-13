@@ -15,7 +15,7 @@ Extract .zip file from OSM Building Creator LoD1 plugin and copy folder to the p
 
 ## Step-by-step:
 
-### 1- Open KITModelViewer and request OSM Data by creating new map (a) or by loading OSM file (b).
+### 1- Open KITModelViewer and request OSM Data by creating new map (a) or by loading OSM data file (b).
 
 <img width="254" height="169" alt="image" src="https://github.com/user-attachments/assets/929b312b-6b0d-4505-a52a-0b3098fd2147" />
 
@@ -24,7 +24,7 @@ Extract .zip file from OSM Building Creator LoD1 plugin and copy folder to the p
 <img width="354" height="531" alt="image" src="https://github.com/user-attachments/assets/0339d70a-6261-4129-890c-d87a5934684a" />
 <br><img width="789" height="361" alt="image" src="https://github.com/user-attachments/assets/1ceb3a93-8ccb-4eae-b8e2-5c2dfcfa5538" />
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;b) Open or drag OSM map data file retrieved from other source, such as [OpenStreetMap Export](https://www.openstreetmap.org/export). Models will be created just for buildings.
+#### &nbsp;&nbsp;&nbsp;&nbsp;b) Open or drag OSM data file retrieved from other source, such as [OpenStreetMap Export](https://www.openstreetmap.org/export). Models will be created just for buildings.
 
 <img width="753" height="390" alt="image" src="https://github.com/user-attachments/assets/76223d9f-4b8a-4579-a4dc-638d5f05d792" />
 
@@ -64,6 +64,7 @@ Extract .zip file from OSM Building Creator LoD1 plugin and copy folder to the p
 	date         = {2025}
 }
 ```
+
 
 
 
