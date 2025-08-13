@@ -1,30 +1,31 @@
 # OSM BuildingCreator LoD1
-<img width="358" height="366" alt="image" src="https://github.com/user-attachments/assets/2de7412c-8c0b-4f4a-9601-6c974f2c6595" />
+
+<img width="1380" height="351" alt="image" src="https://github.com/user-attachments/assets/17a65a2a-ae2e-4fd7-9f9c-70bc919af652" />
 
 Generate CityGML LoD1 models ready for export from OpenStreetMap(OSM) data while preserving OSM attributes with the OSM BuildingCreator LoD1 plugin for the [KITModelViewer](https://github.com/KIT-IAI/SDM_KITModelViewer).
 
+CityGML v2.0 documentation defines LoD1 as object blocks with flat roofs, while LoD2 includes differentiated roof structures and thematically differentiated boundary surfaces. In this case, the plugin generates LoD2 CityGML building models, but with flat roofs. The plugin is named after LoD1 because the LoD2 version, which includes roof structures and building parts, will be released soon.
+
 ## Step-by-step:
 
-**1-** Load OSM Data by creating new map (a) or by opening OSM map (b).
+### 1- Load OSM Data by creating new map (a) or by opening OSM map (b).
 
 <img width="254" height="169" alt="image" src="https://github.com/user-attachments/assets/929b312b-6b0d-4505-a52a-0b3098fd2147" />
 
-&nbsp; a) Look for adress, connect to OSM servers and select OSM filter for buildings.
+#### a) Look for adress, connect to OSM servers and select OSM filter for buildings.
 
 <img width="354" height="531" alt="image" src="https://github.com/user-attachments/assets/0339d70a-6261-4129-890c-d87a5934684a" />
-<img align="right" width="505" height="483" alt="image" src="https://github.com/user-attachments/assets/37ab5b4e-3676-425f-873d-c85f7cbe3e5a" />
+<br><img width="789" height="361" alt="image" src="https://github.com/user-attachments/assets/1ceb3a93-8ccb-4eae-b8e2-5c2dfcfa5538" />
 
-<br><img width="311" height="352" alt="image" src="https://github.com/user-attachments/assets/3df4cd18-44d4-4d56-b160-7167118a5174" />
+#### b) Open or drag OSM map data file retrieved from other source, such as [OpenStreetMap Export](https://www.openstreetmap.org/export). Models will be created just from buildings.
 
-<br>&nbsp; b) Open OSM map file.
+<img width="753" height="390" alt="image" src="https://github.com/user-attachments/assets/76223d9f-4b8a-4579-a4dc-638d5f05d792" />
 
 <br><img width="627" height="327" alt="image" src="https://github.com/user-attachments/assets/c4a015dd-de02-4a36-8ed2-0a820c294374" />
 
-<br>**2-** Open plugin OSM Creator LoD1.
+### 2- Open plugin OSM Creator LoD1.
 
-<img width="211" height="96" alt="image" src="https://github.com/user-attachments/assets/c653715f-e979-496d-8826-a04ab6df9e85" />
-
-
+<img width="613" height="384" alt="image" src="https://github.com/user-attachments/assets/69adb870-9a30-4632-a277-2f5b7062c71f" />
 
 <br>The Plugin offers two possibilities:
 - **Create Boundary Surfaces and Building Solid**:
@@ -37,13 +38,6 @@ Generate CityGML LoD1 models ready for export from OpenStreetMap(OSM) data while
   Geberate Solids with flat roofs of building footprints with given heights (LoD1).
 
   <img width="627" height="342" alt="image" src="https://github.com/user-attachments/assets/413e741d-eef9-4053-8640-d407d617573b" />
-
-**3-** Export.
-
-<img width="235" height="330" alt="image" src="https://github.com/user-attachments/assets/1e310286-0741-4fca-90d8-f665239c0474" />
-
-<img align="right" width="608" height="119" alt="image" src="https://github.com/user-attachments/assets/70b175a0-d132-4486-9540-60098e0bc48d" />
-
 
 ## Dependencies
 
@@ -59,6 +53,7 @@ No external dependencies
 	date         = {2025}
 }
 ```
+
 
 
 
