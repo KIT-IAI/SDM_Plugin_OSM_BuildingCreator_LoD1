@@ -58,10 +58,10 @@ Extract .zip file from OSM Building Creator LoD1 plugin and copy folder to the p
 
 ```bibtex
 @software{SDM_Plugin_OSM_BuildingCreator_LoD1,
-	title        = {SDM_Plugin_OSM_BuildingCreator_LoD1},
-	author       = {{Fernanda Lourenzi, Andreas Geiger}},
+	title        = {{SDM_Plugin\_OSM\_BuildingCreator\_LoD1}},
+	author       = {Fernanda Lourenzi, Andreas Geiger},
 	url          = {https://github.com/KIT-IAI/SDM_Plugin_OSM_BuildingCreator_LoD1},
-	date         = {2025}
+	year         = {2025}
 }
 ```
 
