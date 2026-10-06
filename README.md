@@ -6,7 +6,7 @@ Generate CityGML LoD1 models based on OpenStreetMap (OSM) data while preserving 
 
 CityGML v2.0 documentation defines LoD1 as object blocks with flat roofs, while LoD2 includes differentiated roof structures and thematically differentiated boundary surfaces. The LoD1 naming only makes it clear that these are block models with a constant height. A separate version for LoD2 with concrete roof shapes, if available in OSM, will be released soon.
 
-## Instalation
+## Installation
 Extract .zip file from OSM Building Creator LoD1 plugin and copy folder to the plugin folder of KITModerViewer.
 
 
